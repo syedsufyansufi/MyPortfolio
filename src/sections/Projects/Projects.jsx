@@ -12,8 +12,8 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
+          link=" https://movie-recommendation-dijo.vercel.app/"
+          h3="MovieApp"
           p="Streaming App"
         />
         <ProjectCard
