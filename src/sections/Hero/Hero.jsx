@@ -37,9 +37,9 @@ function Hero() {
         <h1>
           Syed 
           <br />
-          Sufiyan
+          Sufiyan Ameen
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>MERN Stack Developer</h2>
         <span>
           <a href="https://x.com/syedsufyan_sufi" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -52,8 +52,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          2+ years of experience building responsive and scalable web applications 
+          using React.js, Node.js, and MongoDB. Specialized in creating modern, 
+          user-friendly interfaces for commercial businesses.
         </p>
         <a href="https://drive.google.com/file/d/1NxOSBhrYdsILrAiR3JmBTTmMJh2gvkeI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <button className="hover">Resume</button>
