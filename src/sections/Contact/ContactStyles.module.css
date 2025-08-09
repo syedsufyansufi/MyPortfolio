@@ -2,6 +2,41 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  gap: 30px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.infoItem strong {
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.infoItem a {
+  color: var(--btn-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.infoItem a:hover {
+  color: var(--btn-text-color);
+  text-decoration: underline;
+}
+
+.infoItem span {
+  color: var(--form-text-color);
 }
 
 form {
@@ -61,6 +96,17 @@ input[type='submit']:active {
 }
 
 @media (width >= 800px) {
+  .contactInfo {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .infoItem {
+    flex-direction: row;
+    gap: 10px;
+  }
+
   textarea,
   input:not([type='submit']) {
     width: 600px;
