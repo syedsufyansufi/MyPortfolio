@@ -64,9 +64,8 @@ function Hero() {
 
         {/* Description */}
         <p className={styles.description}>
-          2+ years of experience building responsive and scalable web applications 
-          using React.js, Node.js, and MongoDB. Specialized in creating modern, 
-          user-friendly interfaces for commercial businesses.
+          Passionate MERN Stack Developer skilled in building responsive, scalable web applications. 
+          Focused on creating modern, user-friendly interfaces and delivering seamless user experiences.
         </p>
 
         {/* Resume Button */}
