@@ -52,9 +52,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          2+ years of experience building responsive and scalable web applications 
-          using React.js, Node.js, and MongoDB. Specialized in creating modern, 
-          user-friendly interfaces for commercial businesses.
+          MERN Stack Developer skilled in creating responsive, scalable web apps using MongoDB, Express.js, React, and Node.js.
         </p>
         <a href="https://drive.google.com/file/d/1NxOSBhrYdsILrAiR3JmBTTmMJh2gvkeI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
           <button className="hover">Resume</button>
